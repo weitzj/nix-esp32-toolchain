@@ -2,7 +2,7 @@
   description = "ESP32 Toolchain";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs";
+    nixpkgs.url = "nixpkgs/nixos-21.11"; 
   };
 
   outputs = {self, nixpkgs}: {
